@@ -1,0 +1,94 @@
+/* Resetting default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Universal container styling */
+.App {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #3f396d;
+    overflow-x: hidden;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3f396d;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: #3f396d;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav li a:hover {
+    color: #fca61f;
+}
+
+.c-btn {
+    background-color: #fca61f;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.c-btn:hover {
+    background-color: #6f34fe;
+    transform: scale(1.05);
+}
+
+/* Section Styling */
+section {
+    padding: 2rem 4rem;
+}
+
+h2, h3 {
+    margin-bottom: 1rem;
+}
+
+h2 span {
+    color: #6f34fe;
+}
+
+/* Footer Styling */
+.footer {
+    background: #211e39;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+.footer h3 {
+    margin-bottom: 0.5rem;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    color: #ccc;
+}
