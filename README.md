@@ -86,5 +86,4 @@ Usage
 Open the project in your browser.
 Explore the portfolio sections built with Flexbox and Grid.
 View the same project migrated to React in the Part 3 section.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
